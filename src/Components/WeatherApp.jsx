@@ -6,7 +6,7 @@ const WeatherApp = () => {
   const [windSpeed, setWindSpeed] = useState()
   const [tempUnit, setTempUnit] = useState()
   const [windUnit, setWindUnit] = useState()
-
+//dsdsd
 // function to get location of the user if the user allows. if user allows we are calling fetchWeatherData in getCurrentPosition method.
   const getLocation = () => {
     if (navigator.geolocation) {
